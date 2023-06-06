@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/leavemngt.iml" filepath="$PROJECT_DIR$/.idea/leavemngt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/leavemanagt_backend.iml" filepath="$PROJECT_DIR$/.idea/leavemanagt_backend.iml" />
     </modules>
   </component>
 </project>

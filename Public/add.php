@@ -27,7 +27,6 @@ $employee_name   = $leave["employeeName"];
 //$start_date      = date($leave['startDate']) ;
 $start_date      = date("Y-m-d", strtotime($leave['startDate']));
 $end_date      =  date("Y-m-d", strtotime($leave['endDate']));
-/
 $leave_type      = $leave['leaveType'];
 $status          = $leave['status'];
 
