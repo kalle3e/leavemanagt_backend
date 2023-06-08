@@ -13,7 +13,10 @@ require '../connect.php'; //
 //         "date" => "2020-01-29");
 
 //
-    $sth = $dbh->prepare('SELECT * from `tetable`');
+    $sth = $dbh->prepare('SELECT 
+                                tx_id, employee_name,start_date, end_date, days, leave_type,
+                                reason, status
+                                from `leave`');
     $sth->execute();
     $res = $sth->fetchAll(PDO::FETCH_ASSOC);
 
