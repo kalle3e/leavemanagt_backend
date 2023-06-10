@@ -7,7 +7,6 @@
     <list default="true" id="5b4d0676-ba6d-4c51-8aa5-5eeebbeb5b67" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Public/Index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Public/Index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Public/add.php" beforeDir="false" afterPath="$PROJECT_DIR$/Public/add.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,38 +29,53 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenDatabaseViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/kathi/angular_12_with_php_backend&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenDatabaseViewOnStart": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/wamp64/www/leavemanagt_backend",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "reference.webide.settings.project.settings.php",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ]
   }
-}</component>
-  <component name="RunManager" selected="PHP Script.add.php">
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\leavemanagt_backend" />
+      <recent name="C:\wamp64\www\leavemanagt_backend\Public" />
+    </key>
+  </component>
+  <component name="RunManager" selected="PHP Script.Index.php">
     <configuration name="add" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" document_root="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="Index.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Public/Index.php">
       <method v="2" />
     </configuration>
     <configuration name="add.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Public/add.php">
       <method v="2" />
     </configuration>
-    <configuration name="test.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Public/test.php">
+    <configuration name="test.php (1)" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/test.php">
+      <method v="2" />
+    </configuration>
+    <configuration name="test.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/test.php">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="PHP Script.Index.php" />
+        <item itemvalue="PHP Script.test.php" />
+        <item itemvalue="PHP Script.test.php (1)" />
         <item itemvalue="PHP Script.add.php" />
       </list>
     </recent_temporary>
@@ -76,7 +90,9 @@
       <updated>1686041475636</updated>
       <workItem from="1686041476756" duration="3793000" />
       <workItem from="1686105666604" duration="29028000" />
-      <workItem from="1686207465541" duration="12615000" />
+      <workItem from="1686207465541" duration="12618000" />
+      <workItem from="1686282382368" duration="12637000" />
+      <workItem from="1686367373066" duration="7007000" />
     </task>
     <servers />
   </component>

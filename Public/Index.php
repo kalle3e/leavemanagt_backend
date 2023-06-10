@@ -13,17 +13,30 @@ require '../connect.php'; //
 //         "date" => "2020-01-29");
 
 //
-    $sth = $dbh->prepare('SELECT 
-                                tx_id, employee_name,start_date, end_date, days, leave_type,
-                                reason, status
-                                from `leave`');
-    $sth->execute();
-    $res = $sth->fetchAll(PDO::FETCH_ASSOC);
+$array = array();
+$sth = $dbh->prepare('SELECT 
+                            tx_id, employee_name,start_date, end_date, days, leave_type,
+                            reason, status
+                            from `leave`');
+$sth->execute();
+//$res = $sth ->fetchAll(PDO::FETCH_ASSOC);
 
-//var_dump(json_encode($res));
+foreach ($sth ->fetchAll(PDO::FETCH_ASSOC) as $row) {
 
-// * Testing hard code
-//echo json_encode($var); // testing hard code
+    $data["txId"]           = $row["tx_id"];
+    $data["employeeName"]   = $row["employee_name"];
+    $data["startDate"]      = $row["start_date"];
+    $data["endDate"]        = $row["end_date"];
+    $data["days"]           = $row["days"];
+    $data["leaveType"]      = $row["leave_type"];
+    $data["reason"]         = $row["reason"];
+    $data["status"]         = $row["status"];
 
-    echo json_encode($res);
-//echo json_encode(['data'=> $Rec]);
+    array_push($array, $data);
+//    $res[] = data;
+//    $res = [...$data];
+}
+
+echo json_encode(['data'=> $array]);
+//echo json_encode(['data'=> $res]);
+
